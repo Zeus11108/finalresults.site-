@@ -1,0 +1,136 @@
+/*use for 'Markazi Text*/
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&amp;display=swap');
+
+
+/*Outer wrapper */
+div#master-wrapper
+{
+    position: relative;
+    width: 930px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+div#master-header
+{
+    width: 930px;
+    height: 120px;
+    /*background-color: transparent;*/
+    position: relative;
+   /* background-image: url('images/headerback.jpg');*/
+    /*background-repeat: repeat;
+    border-top: 0.5px solid #122239;
+    border-left: 0.5px solid #122239;
+    border-right: 1px solid #122239;
+    border-bottom: 1px solid #122239;*/
+}
+
+div#banner-left{ float: left;  height:120px; width: 17%; }
+div#banner-center{ float:left; height:120px;  width: 59%; }
+div#banner-right{ float: right; height:120px;  width: 24%;}
+
+div#master-left-header
+{
+    float: left;
+    width: 928px;
+    text-align: left;
+}
+
+
+#master-right-header
+{
+    float: right;
+    width: 455px;
+    position: relative;
+    height: 95px;
+    text-align: right;
+}
+
+div#master-menu
+{
+    height: 37px;
+    width: 930px;
+    position: relative;
+    background-image: url('images/navback.jpg');
+    background-repeat: repeat;
+    text-align:center;
+    font:12pt Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+	color: Black;
+	font-weight:bold;
+	vertical-align:baseline;
+	/* border-left: 1px solid #122239;
+    border-right: 1px solid #122239;*/
+}
+
+div#master-menu-error-page
+{
+    height: 37px;
+    width: 930px;
+    position: relative;
+    background-image: url('images/navback.jpg');
+    background-repeat: repeat;
+    text-align:right;
+    font:12pt Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+	color: Black;
+	font-weight:bold;
+	vertical-align:baseline;
+	/* border-left: 1px solid #122239;
+    border-right: 1px solid #122239;*/
+}
+
+/* Main section */
+div#master-main-section, .master-main-section
+{
+    
+    padding: 2.5%;
+    /*border-left: 1px solid #122239;
+    border-right: 1px solid #122239;*/
+    position: relative;
+    height: auto;
+    Zoom:1;
+    direction:rtl;
+    top: 0px;
+    right: 1px;
+}
+
+#master-footer
+{
+    width: 930px;
+    clear: both;
+    background-image: url('images/footerback.jpg');
+    background-repeat: repeat;
+    height: 65px;
+    text-align: right;
+    /* border-left: 1px solid #122239;
+    border-right: 1px solid #122239;
+    border-bottom:1px solid #122239;*/
+}
+
+#master-menu a, #master-footer a
+{
+    color: #FFF8ED;
+}
+
+.hidden
+{
+    visibility: hidden;
+    display: none;
+}
+
+.read-only
+{
+    background: #FFF8ED;
+    color: #B1A0B1;
+}
+
+.selected
+{
+    background: #FFD767;
+}
+
+body, form * {
+    font-family: 'Markazi Text';
+    font-size: 12pt;
+}

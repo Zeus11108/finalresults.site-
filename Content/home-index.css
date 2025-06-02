@@ -1,0 +1,240 @@
+﻿#left_column
+{
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+    direction:ltr;
+}
+
+#left_column input
+{
+    margin-bottom: 2px;
+}
+
+#left_column button
+{
+    margin-bottom: 2px;
+    width: 130px;
+    display: block;
+}
+
+#right_column
+{
+    float: right;
+    width: 710px;
+    position: relative;
+}
+
+#top_section
+{
+    clear: both;
+    position: relative;
+    text-align: right;
+    margin-bottom: 20px;
+    border: 1px solid #C0C0C0;
+    padding-bottom: 15px;
+}
+
+#bottom_section
+{
+    clear: both;
+    position: relative;
+    text-align: right;
+    border: 1px solid #C0C0C0;
+    padding-bottom: 15px;
+}
+
+
+#center_section
+{
+    clear: both;
+    position: relative;
+    text-align: right;
+    margin-bottom: 20px;
+    border: 1px solid #C0C0C0;
+}
+
+#load-options
+{    height: 72px;
+}
+
+#top_left_section
+{
+    float: left;
+    position: relative;
+}
+
+#top_right_section
+{
+    float: right;
+    position: relative;
+}
+
+.tableright
+{
+    text-align: right;
+    width: 100%;
+    padding-right: 5px;
+}
+
+.tableright td
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.with-top-margin
+{
+    margin-top: 10px;
+}
+
+.dropdown-column
+{
+    width: 200px;
+}
+
+.dropdown-wide-column
+{
+	width: 490px;
+}
+
+.left-align
+{
+    text-align: left;
+}
+
+.details-column
+{
+    width: 140px;
+}
+
+.details-column-dropdown
+{
+    width: 146px;
+}
+
+.details-column-withcheckbox
+{
+    width: 84px;
+}
+
+.details-column-notes
+{
+    width: 97.9%; width:97.4%;
+}
+
+table#student-details
+{
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+td.breakrow
+{
+    padding-bottom: 15px;
+}
+
+.left_column_containers
+{
+    border: 1px solid #C0C0C0;
+    padding: 5px;
+}
+
+#float-container
+{
+    position: absolute;
+}
+
+.clearFix:after
+{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: auto;
+}
+
+.report_list
+{
+    width: 80%;
+    float: right;
+}
+.generate_button
+{
+    padding-top: 10px;
+}
+
+
+.reportGrid
+{
+    border: 1px solid #6593CF;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.reportGrid th
+{
+    background-color: #B2D4FF;
+    color: #15428B;
+    cursor: pointer;
+    border: 1px solid #ADD1FF;
+    padding: 4px;
+    display: table-cell;
+}
+
+.reportGrid td
+{
+    border-collapse: collapse;
+    border-color: #ADD1FF;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    display: table-cell;
+    padding: 4px;
+}
+
+.Popup
+{
+    background-image: url("images/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.student_list_grid
+{
+    overflow: auto;
+    float: right;
+}
+.grid-font
+{
+    font-family: Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+    font-size: 9pt;
+}
+
+.generateCell
+{
+    text-align: center;
+}
+
+.label-direction
+{
+    direction: rtl;
+}
+.ajax-failure
+{
+    display: block;
+    color: Red;
+    font-size: 10pt;
+    display: none;
+}
+#DateOfBirth
+{
+    padding-right: 3px;
+    width: 143px;
+}
+.ajax-success
+{
+    display: block;
+    color: Green;
+    font-size: 10pt;
+    display: none;
+}

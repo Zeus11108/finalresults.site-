@@ -1,0 +1,195 @@
+﻿.GridOffice2003Silver
+{
+	border: solid 1px #bfcb9b;
+	font: 9pt Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+	background-color: #f0f3f8;
+}
+.GridOffice2003SilverGroupDropArea
+{
+	background-color: #C9C9D9;
+}
+.GridOffice2003SilverGroupDropAreaText, .GridOffice2003SilverGroupDropAreaText TD
+{
+	font: 700 9pt Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+	color: Black;
+}
+.GridOffice2003SilverGroupCaption, .GridOffice2003SilverGroupCaption TD
+{
+	border: none;
+	padding: 3px;
+	background-color: #C9C9D9;
+	font: 700 9pt Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+	color: Black;
+	cursor: default;
+}
+.topborderstyle, .topborderstyle TD, .topborderstyle, .topborderstyle TD, .topborderstyle, .topborderstyle TD, .topborderstyle
+{
+	
+	border-color: #abadb9;
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-top-style:double;
+	border-top-width:3px
+	
+}
+.GridOffice2003SilverAnySummary, .GridOffice2003SilverAnySummary TD
+{
+	border: none;
+	background-color: #C9C9D9;
+	color: Black;
+	padding-left: 3px;
+	font: 700 9pt Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+	cursor: default;
+}
+.GridOffice2003SilverRowHeaders, .GridOffice2003SilverGroupedColumnHeaders
+{
+	-moz-user-select: none;
+	background: #EEEDF3 url("images/GridCell.png") repeat-x scroll center bottom;
+	border-color: #abadb9;
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+	padding: 2px 6px 2px;
+	color: Black;
+}
+.GridOffice2003SilverColumnHeaders, .GridOffice2003SilverColumnHeaders TD, .GridOffice2003SilverTopLeftHeaderCell, .GridOffice2003SilverTopLeftHeaderCell TD
+{
+	-moz-user-select: none;
+	background: #EEEDF3 url("images/GridCell.png") repeat-x scroll center bottom;
+	border-width: 1px 0px 1px 1px;
+	border-style: solid none solid solid;
+	border-color: #abadb9;
+	cursor: pointer;
+	padding: 3px 9px 3px;
+	
+}
+.GridOffice2003SilverColumnHeadersNew, .GridOffice2003SilverColumnHeaders TD, .GridOffice2003SilverTopLeftHeaderCell, .GridOffice2003SilverTopLeftHeaderCell TD
+{
+	-moz-user-select: none;
+	background: #EEEDF3 url("images/GridCell.png") repeat-x scroll center bottom;
+	border-width: 1px 0px 1px 1px;
+	border-style: solid none solid solid;
+	border-color: #abadb9;
+	cursor: none;
+	padding: 3px 9px 3px;
+	
+}
+.GridOffice2003SilverColumnHeadersText
+{
+	font: 700;
+	color: Black;
+}
+.GridOffice2003SilverFilterBarCell, .GridOffice2003SilverFilterBarCell TD, .GridOffice2003SilverFilterBarArea
+{
+	border: 1px solid #abadb9;
+	background-color: #f0f3f8;
+	font: 11px Tahoma;
+	padding: 2px;
+}
+
+.GridOffice2003SilverCustomButton
+{
+	color: Black;
+	border: none;
+	font: 11px Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+}
+
+.GridOffice2003SilverAnyRecord, .GridOffice2003SilverAnyRecord TD, .GridOffice2003SilverAlternateRecord, .GridOffice2003SilverAlternateRecord TD, .GridOffice2003SilverRecordPreview, .GridOffice2003SilverRecordPreview TD, .GridOffice2003SilverMouseHover
+{
+	border-color: #abadb9;
+	border-width: 0.5px 0px 1px 1px;
+	border-style: none none solid solid;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.GridOffice2003SilverMouseHover
+{
+	background-color: #FFF2CE;
+}
+.GridOffice2003SilverSelectedRowCells, .GridOffice2003SilverSelectedUfRowCells
+{
+	background-color: #FFF2CE;
+	background-repeat: repeat-x;
+	background-image: url("images/GridCell.png");
+	background-attachment: scroll;
+	background-position: bottom;
+	cursor: default;
+	border-width: 0px 0px 1px 1px;
+	border-style: solid solid solid solid;
+	border-color: #ADC2DB;
+	padding-left: 4px;
+	padding-right: 4px;
+	cursor: default;
+}
+.GridOffice2003SilverColumnSizer
+{
+	width: 3px;
+	border: 1px outset #bfcb9b;
+	background-color: #bfcb9b;
+	position: absolute;
+	visibility: hidden;
+}
+.GridOffice2003SilverPlusMinus
+{
+	border: none;
+	background-color: #f0f3f8;
+}
+.GridOffice2003SilverGroupIndentCell, .GridOffice2003SilverPlusMinus
+{
+	border-width: 0px 1px 0px 0px;
+	border-color: #abadb9;
+	border-style: solid;
+}
+.GridOffice2003SilverExpandButton
+{
+	text-align: center;
+	border: solid 1px #bfcb9b;
+	height: 8px;
+	width: 8px;
+}
+.GridOffice2003SilverButtonBar
+{
+	border-color: #bfcb9b;
+	border-width: 1px;
+	border-style: solid;
+	background-repeat: repeat-x;
+	background-image: url("images/GridCell.png");
+	cursor: default;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+	font: 10pt Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+}
+.GridOffice2003SilverButtonBarEdit
+{
+	background-color: #f0f3f8;
+	border-color: #bfcb9b;
+	border-width: 1px;
+	border-style: solid;
+	font: 8pt Trebuchet MS, Lucida Grande,Lucida Sans Unicode;
+	vertical-align: middle;
+	padding-left: 3px;
+}
+
+.GridOffice2003SilverMouseHoverBB
+{
+	background-color: #cbcfdb;
+	background-image: url("");
+}
+A.GridOffice2003SilverCustomButton:link
+{
+	color: Black;
+	padding: 3px;
+	text-decoration: none;
+}
+
+A.GridOffice2003SilverCustomButton:hover
+{
+	background: #FFE363;
+	border: solid 1px #abadb9;
+	color: Black;
+	padding: 3px;
+	cursor: pointer;
+}
